@@ -20,19 +20,8 @@ app.use((req, res, next) => {
   next();
 });
 
-// app.get('/', (req, res) => {
-//   res.status(200).json({'message' : 'Hello From the Server', 'app' : 'Natours'});
-// });
-
-// app.post('/', (req, res)=>{
-//   res.send("YOU CAN POST ANYTHING");
-// });
-
-// app.get('/api/V1/tours', getAllTours)
-// app.get('/api/V1/tours/:id', getTour);
-// app.post('/api/V1/tours', createNewTour)
-// app.patch('/api/V1/tours/:id', updateTour);
-// app.delete('/api/V1/tours/:id', deleteTour);
+ 
+ 
 
 // ROUTE HANDLERS
 
