@@ -1,14 +1,19 @@
-const fs = require('fs');
+const curDir = process.cwd();
+const Tour = require(`${curDir}\\models\\tourModel.js`);
 
-const tours = require('../../tours.js');
-
-const deleteTour = (req, res) => {
-  console.log('this is delete module');
- 
-  res.status(203).json({
-    status: 'success',
-    tour: 'null',
-  });
+const deleteTour = async (req, res) => {
+  try {
+    await Tour.findByIdAndDelete(req.params.id);
+    res.status(204).json({
+      status: 'success',
+      tour: 'null',
+    });
+  } catch (err) {
+    res.status(404).json({
+      status: 'fail',
+      message: err,
+    });
+  }
 };
 
 module.exports = deleteTour;
