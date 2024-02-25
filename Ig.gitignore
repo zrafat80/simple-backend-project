@@ -1,1 +1,8 @@
 config.env
+package-lock
+package
+.prettierrc
+.eslintrc
+public/
+node_modules/
+dev-data/
