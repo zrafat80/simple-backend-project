@@ -2,7 +2,7 @@
 
 ## Description
 
-This backend project is a sophisticated solution developed using Express.js on top of Node.js, with MongoDB for database management through Mongoose. It exemplifies the principles of clean architecture and maintainable code, focusing on the Single Responsibility Principle (SRP) from the SOLID design principles to ensure that each module, class, or function has a singular, focused purpose. This project is a simple initiative designed to hone my skills and knowledge in these technologies.
+This project is a backend application developed with Express.js and Node.js, utilizing MongoDB and Mongoose for database management. It adheres to clean architecture and SOLID's Single Responsibility Principle, focusing on CRUD operations for tours with RESTful APIs. Designed as a simple project to refine my skills in these technologies.
 ## Features
 - Utilizes Express.js for basic server functionality.
 - Implements RESTful APIs, adhering to standard practices.
